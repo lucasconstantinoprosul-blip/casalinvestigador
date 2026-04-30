@@ -41,8 +41,9 @@ export function DownloadPage() {
 
         {/* The single CTA Button */}
         <a 
-          href="/arquivos-do-caso.pdf" 
-          download
+          href="https://download1654.mediafire.com/9rldv0za8vogSEkqg3szcs3zD_fsuM8H_Os9py0dZg2F3oJ_eID9HMb93OtyYNWbgHRC5aIjq9sLyBB5xK4zJVlCJgkOeHzEk6TC48gV7BMtvN8fZgz47RRl7QfDJET9_-FlBuJWKcKZH_9-8KawYNrpJTuzaMyn9LXbXJy-W83HEQ0/dk4ayea9ofxcwbe/Casos+criminais+%5BJOGO%5D-20260430T143930Z-3-001.zip" 
+          target="_blank"
+          rel="noopener noreferrer"
           className="w-full sm:w-auto px-8 sm:px-12 py-5 sm:py-6 bg-geo-red text-white font-sans font-black uppercase tracking-[0.1em] text-sm md:text-base hover:bg-red-700 transition-all flex items-center justify-center gap-3 group rounded-xl shadow-[0_4px_25px_rgba(209,17,17,0.4)] active:scale-95"
         >
           <Download className="w-6 h-6 group-hover:-translate-y-1 transition-transform" />
