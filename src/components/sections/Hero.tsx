@@ -2,10 +2,6 @@ import { motion } from "motion/react";
 import { Search, Fingerprint, Lock, ChevronRight } from "lucide-react";
 
 export function Hero() {
-  const scrollToPricing = () => {
-    document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <section className="relative min-h-[90vh] md:min-h-screen flex border-b border-geo-border bg-geo-bg">
       <main className="flex-1 flex flex-col-reverse md:grid md:grid-cols-12 gap-0 w-full overflow-hidden">
@@ -89,13 +85,15 @@ export function Hero() {
             </div>
 
             <div className="flex flex-col gap-4 max-w-md">
-              <button 
-                onClick={scrollToPricing}
+              <a 
+                href="https://checkout.infinitepay.io/lucasconstantinol/7l3feRgWfF"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-full py-5 sm:py-6 bg-geo-red text-white font-sans font-black uppercase tracking-[0.1em] text-sm sm:text-base hover:bg-red-700 transition-all flex items-center justify-center gap-3 group rounded-xl shadow-[0_4px_25px_rgba(209,17,17,0.4)] active:scale-95"
               >
                 QUERO ACESSO AOS CASOS
                 <ChevronRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
-              </button>
+              </a>
               
               <div className="flex flex-col items-center justify-center gap-2 mt-2">
                 <p className="text-xs text-green-400 font-sans font-bold">✓ Entrega imediata no seu e-mail</p>

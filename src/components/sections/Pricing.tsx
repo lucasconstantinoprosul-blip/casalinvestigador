@@ -49,7 +49,7 @@ export function Pricing() {
             
             <ul className="space-y-4 mb-8">
               {[
-                {text: 'Leve TODOS os +100 Dossiês Criminais', highlight: true}, 
+                {text: 'Leve TODOS os Dossiês Criminais', highlight: true}, 
                 {text: 'Centenas de Evidências em Alta Definição', highlight: false}, 
                 {text: 'BÔNUS: Caso Extra "Assassino do Zodíaco"', highlight: true},
                 {text: 'Risco Zero: 7 Dias de Garantia Total', highlight: false}
@@ -62,10 +62,15 @@ export function Pricing() {
             </ul>
             
             <div className="flex flex-col gap-3 mt-4">
-              <button className="w-full py-5 sm:py-6 bg-geo-red text-white font-black font-sans transition-all flex flex-col items-center justify-center gap-1 group hover:bg-red-700 uppercase tracking-widest text-[13px] sm:text-sm shadow-[0_8px_30px_rgba(209,17,17,0.4)] rounded-xl active:scale-95">
+              <a 
+                href="https://checkout.infinitepay.io/lucasconstantinol/7l3feRgWfF"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full py-5 sm:py-6 bg-geo-red text-white font-black font-sans transition-all flex flex-col items-center justify-center gap-1 group hover:bg-red-700 uppercase tracking-widest text-[13px] sm:text-sm shadow-[0_8px_30px_rgba(209,17,17,0.4)] rounded-xl active:scale-95"
+              >
                 <span className="flex items-center gap-2">QUERO TUDO POR SÓ R$ 19,90 <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" /></span>
                 <span className="text-[9px] font-medium text-white/70 normal-case tracking-normal">Clique para finalizar compra segura</span>
-              </button>
+              </a>
               <div className="flex items-center justify-center gap-2 mt-2 font-sans">
                 <Lock className="w-3 h-3 text-geo-text/40"/>
                 <span className="text-[10px] text-geo-text/40 uppercase tracking-widest font-bold">Compra Segura • Entrega Imediata</span>
